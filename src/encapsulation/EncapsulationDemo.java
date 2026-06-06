@@ -1,0 +1,15 @@
+package encapsulation;
+
+public class EncapsulationDemo {
+	private String nombre;
+
+    // Setter
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
+    }
+
+    // Getter
+    public String getNombre() {
+        return nombre;
+    }
+}
