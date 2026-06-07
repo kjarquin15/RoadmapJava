@@ -1,10 +1,9 @@
 package classesobjects;
 
 public class Person {
-	// Attribute
-    String name;
 
-    // Method
+    public String name;
+
     public void greet() {
         System.out.println("Hello, my name is " + name);
     }
